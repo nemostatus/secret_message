@@ -8,11 +8,11 @@
 </head>
 <body>
     <h1>Type out your thoughts!</h1>
-    <textarea onkeypress = "log(event)">
+    <textarea onkeypress = "log(event)" id="prompt">
     </textarea>
 <br>
 <form onSubmit="change(event)">
-  <input type = "text" placeholder="Enter a secret message here" id="secret" >
+  <input type = "text"  id="secret" >
   <input type="submit" value="Submit" >
 </form>
 
